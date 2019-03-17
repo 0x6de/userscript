@@ -2,7 +2,7 @@
 // @name         Humblebundle Unsub Newsletter
 // @namespace    hbunsub
 // @version      1.0
-// @description  I DON4T WANT YOUR FUCKING MAILS §§§ (ty for free games tho)
+// @description  Add an input button to the download page to easily unsub from the newsletter + some ad cleaning 
 // @author       0x6de
 // @include      https://www.humblebundle.com/user/settings*
 // @include      https://www.humblebundle.com/downloads?*
@@ -45,10 +45,10 @@ function clearDownload(){
    }
     var divUnsub = document.createElement('div');
     divUnsub.innerHTML = '        \
-     <div id="unsubButon" style="clear: both;text-align: center;display: inherit;" class="cta rectangular-button button-v2 red"> Unsubscribe Newsletter </div>  \
+     <div id="unsubButton" style="clear: both;text-align: center;display: inherit;" class="cta rectangular-button button-v2 red"> Unsubscribe Newsletter </div>  \
     ';
     document.querySelector('.key-container').appendChild(divUnsub);
-    document.querySelector('#unsubButon').addEventListener('click', function (event) {
+    document.querySelector('#unsubButton').addEventListener('click', function (event) {
       window.open('https://humblebundle.com/user/settings');
     });
   });
