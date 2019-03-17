@@ -43,6 +43,14 @@ function clearDownload(){
      document.querySelector(".download-mosaic").innerHTML = "";
      document.querySelector(".download-mosaic").style.display = 'none';
    }
+   if (document.querySelector(".js-coupon-whitebox-holder")) {
+    document.querySelector(".js-coupon-whitebox-holder").innerHTML = "";
+    document.querySelector(".js-coupon-whitebox-holder").style.display = 'none';
+   }
+   if (document.querySelector("#site-xpromo-banner")) {
+    document.querySelector("#site-xpromo-banner").innerHTML = "";
+    document.querySelector("#site-xpromo-banner").style.display = 'none';
+   }
     var divUnsub = document.createElement('div');
     divUnsub.innerHTML = '        \
      <div id="unsubButton" style="clear: both;text-align: center;display: inherit;" class="cta rectangular-button button-v2 red"> Unsubscribe Newsletter </div>  \
