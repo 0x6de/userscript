@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Instagram Lower Volume
-// @namespace add videos controls and automatically lower volume
+// @description add videos controls and automatically lower volume
 // @author 0x6de
 // @include https://www.instagram.com/*
 // @exclude *://*.instagram.com/*/*/embed/
