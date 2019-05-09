@@ -19,7 +19,7 @@ function clearNewsletter() {
     check.checked = false;
     }
   }
-  var boutton = document.querySelector("a.button-link:nth-child(3)");
+  var boutton = document.querySelector("a.button-v2:nth-child(4)");
   boutton.addEventListener("click", function( event ) {
     setTimeout(function(){
       window.close();
